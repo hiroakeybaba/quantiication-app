@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from pptx import Presentation
 from pptx.util import Inches
 
-st.title("FAHFA検量線作成ツール")
+st.title("検量線作成ツール")
 
 uploaded_file = st.file_uploader("Excelファイルをアップロード", type=["xlsx"])
 
